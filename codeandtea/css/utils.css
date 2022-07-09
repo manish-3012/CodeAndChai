@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lora:ital,wght@1,500&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1:'Baloo 2', serif;
+    --font2:  'Lora', serif;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin:auto;
+}
+
+.btn{
+    font-family: var(--font1); 
+    padding: 0px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-input{
+    padding: 0px 5px;
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0 10px;
+    font-family: var(--font1);
+}
+
+.form-control{
+
+}
